@@ -1,0 +1,29 @@
+#slide{
+font-size:0px;
+text-decoration:blink;
+border-radius: 5px;
+width:15px;
+height:20px;
+background:red;
+transition:width 0.1s;
+-moz-transition:width 0.1s; /* Firefox 4 */
+-webkit-transition:width 0.1s; /* Safari and Chrome */
+-o-transition:width 0.1s; /* Opera */
+}
+
+#slide:hover{
+width:80px;
+font-size:16px;
+}
+
+/*
+.slide_button
+{
+color:red;
+text-decoration:none;
+}
+.slide_button:hover
+{
+color:black;
+}*/
+
